@@ -2,7 +2,7 @@
 #include <string.h>
 
 
-#define	MAX_COLUMNS		10
+#define	MAX_COLUMNS				10
 #define	MAX_COLUMNS_WIDTH	20
 
 void print_table_header(const char* headers[MAX_COLUMNS], int ncols, int cols_width[MAX_COLUMNS]){
